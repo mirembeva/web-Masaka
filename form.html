@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user form</title>
+</head>
+<body>
+    <form action="">
+        <h3>Fill in your details</h3>
+        <label>Surname</label><input type="text" name="surname" required><br><br>
+        <label>Password</label><input type="password" name="userpassword">
+        <label>Year of Study</label><input type="number" name="year of study" min="1" max="5" step="2">
+        <br><label>Date of birth</label><input type="date" name="DOB"><br>
+        <label>S.6 UACE</label><input type="file" name="UACE"><br><br>
+        <label>Female</label>
+        <input type="radio" name="gender" value="female">
+        <label>Male</label>
+        <input type="radio" name="gender" value="male"><br><br>
+        <input type="checkbox" name="Matooke" value="yes"><label>Matooke</label><br>
+        <input type="checkbox" name="Meat" value="yes"><label>Meat</label><br>
+        <input type="checkbox" name="Maize" value="yes"><label>Maize</label><br>
+        <select name="course">
+            <option value="BSCIT">Bachelor of IT</option>
+            <option value="BSCs">Bachelor of cs</option>
+            <option value="BSEDuc" selected>Bachelor of educ</option>
+            </select><br><br>
+            <textarea cols="30" rows="10">
+                write a comment
+            </textarea><br><br>
+        <input type="submit" value="SEND">
+        <input type="reset" value="CANCEL">
+        
+    </form>     
+
+        
+    
+</body>
+</html>
